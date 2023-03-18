@@ -1,0 +1,13 @@
+{
+    "name": "lesson_react",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "marp -s .",
+        "build:pdf": "marp --pdf --allow-local-files --theme common.css slide.md"
+    },
+    "devDependencies": {
+        "@marp-team/marp-cli": "^2.4.0"
+    }
+}
