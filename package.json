@@ -5,7 +5,7 @@
     "license": "MIT",
     "scripts": {
         "dev": "marp -s .",
-        "build:pdf": "marp --pdf --allow-local-files --theme common.css slide.md"
+        "build:pdf": "marp --pdf --allow-local-files --theme gradient.css slide.md"
     },
     "devDependencies": {
         "@marp-team/marp-cli": "^2.4.0"
